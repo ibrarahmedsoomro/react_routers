@@ -14,11 +14,11 @@ function RouterConfig() {
       <Router>
         <NavBar />
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route exact path="/products" component={Products} />
           <Route path="/product/:id" component={ProductItems} />
-          <Route path="*" component={() => <h1>404 Not Fount</h1>}>
+          <Route path="*" component={() => <h1>404 Not Fount</h1>} >
 
           </Route>
         </Switch>
