@@ -16,7 +16,7 @@ function ProductItems() {
       <h1>This is a ProductsItem page</h1>
       <div className="link" >
         <h2>{shoe.name}</h2>
-        <img src={shoe.img} height={700}           alt="shoe" />
+        <img src={shoe.img} height={700}   alt="shoe" />
       </div>
     </div>
   );
